@@ -1,6 +1,5 @@
 import scrapy
 
-
 class SpiderSpider(scrapy.Spider):
     name = 'spider'
     allowed_domains = ['books.toscrape.com']
@@ -20,3 +19,5 @@ class SpiderSpider(scrapy.Spider):
                 'Image URL': image_url,
                 'Book URL': book_url,
             }
+
+#This is spider file
